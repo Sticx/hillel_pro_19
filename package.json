@@ -1,0 +1,28 @@
+{
+  "name": "hillel_pro_19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sticx/hillel_pro_19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sticx/hillel_pro_19/issues"
+  },
+  "homepage": "https://github.com/Sticx/hillel_pro_19#readme",
+  "dependencies": {
+    "baby": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
