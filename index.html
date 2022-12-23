@@ -7,14 +7,20 @@
 <body>
 
 <script>
-    const arg = function (...args) {
-        console.log([0],[1],[2],...args)
-        if (args.length<5){
+    const arg = function (a='Error',b,c,...args) {
+        console.log(a,'-',b,'-',c,args)
+
+        // console.log(...args)
+        if (arguments.length<5){
             console.log('ERROR')
         }
+        if (a !==undefined){
+             return 'a'
+        }
+        // return a;
 
     }
-    arg(undefined,'a','b','c','d')
+    arg(...[undefined,'b','c',3,4,5])
 
 </script>
 
